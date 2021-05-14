@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
+import ScoreBoard from './ScoreBorad';
+import SinglePlayer from './SinglePlayer';
 class App extends Component {
   componentDidMount() {
     var scene = new THREE.Scene();
@@ -61,9 +63,9 @@ class App extends Component {
   }
   render() { 
     return ( 
-      <div class="tetris">
-        <h1>Hello World</h1>
-        <h1>Test</h1>
+      <div className="tetris">
+        <SinglePlayer />
+        <ScoreBoard />
       </div>
      );
   }
