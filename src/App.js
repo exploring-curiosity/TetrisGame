@@ -62,7 +62,7 @@ class App extends Component {
   render() { 
     return ( 
       <div class="tetris">
-        <h1>Tetris Game</h1>
+        <h1>Hello World</h1>
       </div>
      );
   }
