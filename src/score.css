@@ -1,0 +1,84 @@
+.floor-level{
+    position:absolute;
+    background:rgba(100,100,100,0.5);
+    border:1px solid white;
+    border-radius: 50px;
+    transform: translate(900%,20%);
+    width:18%;
+    height:20%;
+  }
+  .floor-level p{
+    padding: 5px;
+    position: absolute;
+    transform:translate(5%,-130%);
+  }
+  .floor-level h1{
+    text-align: center;
+    color:aqua;
+  }
+  
+  .score{
+    position:absolute;
+    background:rgba(100,100,100,0.5);
+    border:1px solid white;
+    border-radius: 50px;
+    transform: translate(900%,135%);
+    width:18%;
+    height:20%;
+  }
+  .score p{
+    padding: 5px;
+    position: absolute;
+    transform:translate(5%,-130%);
+  }
+  .score h1{
+    text-align: center;
+    color:aqua;
+  }
+  
+  .level{
+    position:absolute;
+    background:rgba(100,100,100,0.5);
+    border:1px solid white;
+    border-radius: 50px;
+    transform: translate(900%,250%);
+    width:18%;
+    height:20%;
+  }
+  .level p{
+    padding: 5px;
+    position: absolute;
+    transform:translate(5%,-130%);
+  }
+  .level h1{
+    text-align: center;
+    color:aqua;
+  }
+  
+  .start{
+    position:absolute;
+    background:rgba(100,100,100,0.5);
+    border:1px solid white;
+    border-radius: 50px;
+    transform: translate(900%,365%);
+    width:18%;
+    height:20%;
+    overflow: hidden;
+  }
+  .start button{
+    background: green;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    color:white;
+    transition: 0.8s;
+    font-size: large;
+  }
+  .start button:hover{
+    cursor: pointer;
+    background-color:aqua;
+    color:black;
+  }
+  
