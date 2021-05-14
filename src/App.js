@@ -63,6 +63,7 @@ class App extends Component {
     return ( 
       <div class="tetris">
         <h1>Hello World</h1>
+        <h1>Test</h1>
       </div>
      );
   }
