@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
+
 import HomePage from './components/homepage/HomePage';
+import ScoreBoard from './components/ScoreBoard/ScoreBorad';
+import SinglePlayer from './components/SinglePlayer/SinglePlayer';
+
 class App extends Component {
   componentDidMount() {
     var scene = new THREE.Scene();
