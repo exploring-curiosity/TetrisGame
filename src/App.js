@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
-<<<<<<< HEAD
-import ScoreBoard from './ScoreBorad';
-import SinglePlayer from './SinglePlayer';
-=======
+
+import HomePage from './components/homepage/HomePage';
 import ScoreBoard from './components/ScoreBoard/ScoreBorad';
 import SinglePlayer from './components/SinglePlayer/SinglePlayer';
->>>>>>> bd7ffdcb394d6a2ca8f8000f726a8f4e9bd4a5ca
+
 class App extends Component {
   componentDidMount() {
     var scene = new THREE.Scene();
@@ -69,8 +67,7 @@ class App extends Component {
   render() { 
     return ( 
       <div className="tetris">
-        <SinglePlayer />
-        <ScoreBoard />
+        <HomePage />
       </div>
      );
   }
