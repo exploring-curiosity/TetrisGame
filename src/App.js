@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
-<<<<<<< HEAD
-import ScoreBoard from './ScoreBorad';
-import SinglePlayer from './SinglePlayer';
-=======
-import ScoreBoard from './components/ScoreBoard/ScoreBorad';
-import SinglePlayer from './components/SinglePlayer/SinglePlayer';
->>>>>>> bd7ffdcb394d6a2ca8f8000f726a8f4e9bd4a5ca
+import Tetris from './Components/Tetris/Tetris';
+
 class App extends Component {
   componentDidMount() {
     var scene = new THREE.Scene();
@@ -32,9 +27,6 @@ class App extends Component {
       pa[3*i] = x;
       pa[3*i+1] = y;
       pa[3*i+2] = z;
-      // pa[6*i+3] = xx;
-      // pa[6*i+4] = yy;
-      // pa[6*i+5] = zz;
       va[i]=0;
     }
     let material = new THREE.PointsMaterial({color:0xffffff});
@@ -69,8 +61,7 @@ class App extends Component {
   render() { 
     return ( 
       <div className="tetris">
-        <SinglePlayer />
-        <ScoreBoard />
+        <Tetris />
       </div>
      );
   }
