@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
+
 import Tetris from './Components/Tetris/Tetris';
+import HomePage from './components/homepage/HomePage';
+import ScoreBoard from './components/ScoreBoard/ScoreBorad';
+import SinglePlayer from './components/SinglePlayer/SinglePlayer';
+
 
 class App extends Component {
   componentDidMount() {
